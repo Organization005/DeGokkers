@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<a href="Register.php">Register</a>
+
 </body>
 </html>
