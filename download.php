@@ -11,7 +11,7 @@
     <h1>Download</h1>
 
     <video width="500" controls>
-        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="input video name" type="video/mp4">
 
         Your browser does not support HTML5 video.
     </video>
