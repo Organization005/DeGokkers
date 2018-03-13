@@ -1,7 +1,29 @@
+body{
+    font-family: "Arial Nova Light";
+}
 .login{
     margin: 0 auto;
     max-width: 15%;
+    border: 3px solid #778877;
+    background-color: #155a60;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .login input{
     margin-top: 10px;
+}
+.submit{
+    display: flex;
+}
+.submit input{
+    width: 173px;
+    background-color: #155a60;
+    border: 1px solid #000000;
+}
+h1{
+    text-align: center;
+}
+.alert-error{
+
 }
