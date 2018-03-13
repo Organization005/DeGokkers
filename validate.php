@@ -9,7 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 //define other variables with submitted values from $_POST
                 $email = $mysqli->real_escape_string($_POST['email']);
 
-                //md5 hash password for security
                 $hashed_password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
 
