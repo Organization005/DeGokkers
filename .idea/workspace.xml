@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd2b4523-9ac5-47c8-af71-1f2b933902e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/download.php" afterPath="$PROJECT_DIR$/download.php" />
-    </list>
+    <list default="true" id="cd2b4523-9ac5-47c8-af71-1f2b933902e4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +116,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../testing php" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -149,21 +146,29 @@
       <updated>1520860178556</updated>
       <workItem from="1520860179666" duration="46000" />
       <workItem from="1520860226736" duration="18000" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <workItem from="1520860245927" duration="2415000" />
 =======
       <workItem from="1520860245927" duration="70000" />
       <workItem from="1520864707883" duration="811000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1520860245927" duration="3136000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="2479000" />
 =======
     <option name="totallyTimeSpent" value="945000" />
 >>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="3200000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2418" height="1368" extended-state="6" />
