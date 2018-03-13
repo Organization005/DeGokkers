@@ -15,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -24,10 +24,12 @@
       <file leaf-file-name="validate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <marker date="1520952338111" expanded="true" signature="646:756" ph="INSERT INTO users... " />
+                <marker date="1520953401668" expanded="true" signature="538:632" ph="INSERT INTO users... " />
+                <marker date="1520953401668" expanded="true" signature="603:632" ph="INSERT INTO users... " />
+                <marker date="1520953401668" expanded="true" signature="622:632" ph="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -142,12 +144,12 @@
       <workItem from="1520866925391" duration="3649000" />
       <workItem from="1520941885114" duration="1244000" />
       <workItem from="1520943280700" duration="4610000" />
-      <workItem from="1520952281001" duration="106000" />
+      <workItem from="1520952281001" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9609000" />
+    <option name="totallyTimeSpent" value="10225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -239,7 +241,7 @@
     <entry file="file://$PROJECT_DIR$/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -254,10 +256,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1520952338111" expanded="true" signature="646:756" ph="INSERT INTO users... " />
+            <marker date="1520953401668" expanded="true" signature="538:632" ph="INSERT INTO users... " />
+            <marker date="1520953401668" expanded="true" signature="603:632" ph="INSERT INTO users... " />
+            <marker date="1520953401668" expanded="true" signature="622:632" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
