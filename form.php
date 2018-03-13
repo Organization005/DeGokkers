@@ -21,7 +21,7 @@ require 'validate.php';
 
 <h1>Create an account</h1>
 <div class="login">
-<<<<<<< HEAD:form.php
+
 <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
     <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
     <input type="text" placeholder="User Name" name="username" required />
@@ -30,17 +30,7 @@ require 'validate.php';
     <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
     <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
 </form>
-=======
-    <form class="form" action="Register.php " method="post" enctype="multipart/form-data" autocomplete="off">
-            <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
-        <input type="text" placeholder="User Name" name="username" required />
-        <input type="email" placeholder="Email" name="email" required />
-        <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
-        <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
-        <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
-    </form>
->>>>>>> master:index.php
-</div>
+
 
 </body>
 </html>
