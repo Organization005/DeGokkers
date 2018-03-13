@@ -7,7 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             //define other variables with submitted values from $_POST
-            $username = $mysqli->real_escape_string($_POST['username']);
             $email = $mysqli->real_escape_string($_POST['email']);
 
             //md5 hash password for security
@@ -15,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             //insert user data into database
-            $sql = "INSERT INTO users (username, email, password) "
-                . "VALUES ('$username', '$email', '$hashed_password')";
+            $sql = "INSERT INTO users (email, password) "
+                . "VALUES ('$email', '$hashed_password')";
 
             //check if mysql query is successful
             if ($mysqli->query($sql) === true) {
