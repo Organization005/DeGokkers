@@ -11,13 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $email = $mysqli->real_escape_string($_POST['email']);
 
             //md5 hash password for security
-            $password = $_POST['password'];
-            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+            $hashed_password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
 
             //insert user data into database
             $sql = "INSERT INTO users (username, email, password) "
-                . "VALUES ('$username', '$email', '$password')";
+                . "VALUES ('$username', '$email', '$hashed_password')";
 
             //check if mysql query is successful
             if ($mysqli->query($sql) === true) {
