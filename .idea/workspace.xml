@@ -24,12 +24,12 @@
       <file leaf-file-name="validate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
               <folding>
-                <marker date="1520953401668" expanded="true" signature="538:632" ph="INSERT INTO users... " />
-                <marker date="1520953401668" expanded="true" signature="603:632" ph="INSERT INTO users... " />
-                <marker date="1520953401668" expanded="true" signature="622:632" ph="INSERT INTO users... " />
+                <marker date="1520953491569" expanded="true" signature="538:632" ph="INSERT INTO users... " />
+                <marker date="1520953491569" expanded="true" signature="603:632" ph="INSERT INTO users... " />
+                <marker date="1520953491569" expanded="true" signature="622:632" ph="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -144,12 +144,12 @@
       <workItem from="1520866925391" duration="3649000" />
       <workItem from="1520941885114" duration="1244000" />
       <workItem from="1520943280700" duration="4610000" />
-      <workItem from="1520952281001" duration="722000" />
+      <workItem from="1520952281001" duration="802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10225000" />
+    <option name="totallyTimeSpent" value="10305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -256,12 +256,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
           <folding>
-            <marker date="1520953401668" expanded="true" signature="538:632" ph="INSERT INTO users... " />
-            <marker date="1520953401668" expanded="true" signature="603:632" ph="INSERT INTO users... " />
-            <marker date="1520953401668" expanded="true" signature="622:632" ph="INSERT INTO users... " />
+            <marker date="1520953491569" expanded="true" signature="538:632" ph="INSERT INTO users... " />
+            <marker date="1520953491569" expanded="true" signature="603:632" ph="INSERT INTO users... " />
+            <marker date="1520953491569" expanded="true" signature="622:632" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>

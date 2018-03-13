@@ -19,8 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             //check if mysql query is successful
             if ($mysqli->query($sql) === true) {
-                $_SESSION['message'] = "Registration succesful!" . "<br>"
-                    . " Added $username to the database!";
+                $_SESSION['message'] = "Registration succesful!";
             } else {
                 $_SESSION['message'] = 'User could not be added to the database!';
             }
