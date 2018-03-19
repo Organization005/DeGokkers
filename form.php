@@ -2,7 +2,6 @@
 /* form.php */
 session_start();
 $_SESSION['message'] = '';
-$mysqli = new mysqli("localhost", "root", "", "accounts");
 
 require 'validate.php';
 
