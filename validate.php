@@ -22,25 +22,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     echo 'Connection failed:' . $e->getMessage;
                 }
 
+                // input some sql shit
+                print ();
 
-                //insert user data into database
-               $sql = "INSERT INTO users (email, password) "
-                    . "VALUES ('$email', '$hashed_password')";
+                if(true){
 
-                if ($mysqli->query($sql) === true) {
-                    $_SESSION['message'] = "Registration succesful!";
-                } else {
-                    $_SESSION['message'] = 'User could not be added to the database!';
+                    //insert user data into database
+                    $sql = "INSERT INTO users (email, password) " . "VALUES ('$email', '$hashed_password')";
+
+                    if ($mysqli->query($sql) === true) {
+                        $_SESSION['message'] = "Registration succesful!";
+                    } else {
+                        $_SESSION['message'] = 'User could not be added to the database!';
+                    }
+                }else{
+                    $_SESSION['message'] = "the email is already in use";
                 }
 
-//
-//                //check if mysql query is successful
-//                if ($mysqli->query($sql) === true) {
-//                    $_SESSION['message'] = "Registration succesful!";
-//                } else {
-//                    $_SESSION['message'] = 'User could not be added to the database!';
-//                }
-//                $mysqli->close();
+
+
 
             }
             else {
