@@ -33,14 +33,14 @@ require 'validate.php';
         </div>
     </form>
 </div>
-    <button id="myBtn">Register</button>
+    <button class="button" id="myBtn">Register</button>
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close">&times; </span>
             <div class="register">
 
                 <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
@@ -83,6 +83,29 @@ require 'validate.php';
     }
 </script>
 </header>
+<div class="banner">
+    <video autoplay>
+        <source src="img/trailer.mp4" type="video/mp4">
+        <source src="img/trailer.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+
+    </video>
+</div>
+<div class="main-content">
+    <h2>Information about this game.</h2>
+
+        <h3>What the game is about</h3>
+    <div class="aboutgame">
+        <p>In this game you can bet on an elephant, if you choose the elephant that reaches the end first,
+            you win your bet times 2. </p>
+    </div>
+        <h3>How to get the game</h3>
+    <div class="aboutgame">
+        <p>To get the game you first have to download it, after that you can run the .exe file and play the game.
+        Then you can bet on an elephant you think is going to win and then choose how much you want to bet.
+        And finally hit start and see what kind of fortune you earn. </p>
+    </div>
+</div>
 </body>
 </html>
 
