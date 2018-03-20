@@ -61,27 +61,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 if ($login == false ){
-    $logemail = ' ';
-    $logpassword = ' ';
-    $logincheck = ' ';
-
+    $logemail = $_POST['logemail'];
+    $logpassword = $_POST['logpassword'];
+    $logincheck = false;
+    $loogpassword = ' ';
     $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
     $query->bindValue( ":email", $logemail);
     $query->execute();
 
     if ($query->rowCount() > 0) {
+        do{
+            $query = $dbh->prepare("SELECT password FROM users ");
+
+
+
+            if (password_verify($logpassword, $query->execute())){
+                $logincheck   = true;
+            }
+        }while($query->rowCount() < 0);
+    }else{
+        $logincheck = false;
+
+    }
+
+    if ($logincheck === false){
+        $_SESSION['logmessage'] = "your password or email is not correct";
+
 
     }else{
-        
+        $_SESSION['logmessage'] = "you are login now";
     }
-
-    $query = $dbh->prepare("SELECT password FROM users WHERE password = :password");
-    $query->bindValue( ":password", $logpassword);
-    $query->execute();
-
-
-
+    }
 }
-    }
 
 
