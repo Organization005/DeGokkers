@@ -22,7 +22,7 @@
                 if ($_POST['password'] === $_POST['confirmpassword']) {
 
                     $passwordlenght = strlen($_POST['password']);
-                    if ($passwordlenght > 7) {
+                    if ($passwordlenght >= 7) {
 
                         $email = $_POST['email'];
 
