@@ -60,44 +60,39 @@ if(isset($_POST['register'])) {
                 $_SESSION['message'] = 'fill in a password';
             }
         }
-        if ($login == false ){
+        if ($login == false) {
             $logemail = $_POST['logemail'];
             $logpassword = $_POST['logpassword'];
             $logincheck = false;
             $loogpassword = ' ';
 
             $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
-            $query->bindValue( ":email", $logemail);
+            $query->bindValue(":email", $logemail);
             $query->execute();
 
 
             if ($query->rowCount() > 0) {
 
-                $query = $dbh->prepare("SELECT password FROM users where email = :email");
-                $query->bindValue( ":email", $logemail);
+                $query = $dbh->prepare("SELECT password FROM users WHERE email = :email");
+                $query->bindValue(":email", $logemail);
                 $hash = $query->execute();
 
-                if (password_verify($logpassword, $hash)){
-                    $logincheck   = true;
+                if (password_verify($logpassword, $hash)) {
+                    $logincheck = true;
                 }
-            }else{
+            } else {
                 $logincheck = false;
 
             }
 
-            if ($logincheck === false){
+            if ($logincheck === false) {
                 $_SESSION['logmessage'] = "your password or email is not correct";
 
 
-            }else{
+            } else {
                 $_SESSION['logmessage'] = "you are login now";
             }
         }
     }
 
-    }
-    
-
-
-
-
+}
