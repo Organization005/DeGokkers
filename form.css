@@ -1,11 +1,12 @@
 body{
     font-family: "Arial Nova Light";
 }
+header{
+    display: flex;
+}
 .register{
     margin: 0 auto;
     max-width: 15%;
-    border: 3px solid #778877;
-    background-color: #155a60;
     padding-left: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -18,24 +19,42 @@ body{
 }
 .submit input{
     width: 173px;
-    background-color: #155a60;
-    border: 1px solid #000000;
 }
-h1{
-    text-align: center;
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-.alert-error{
 
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
 }
-.login{
-    margin: 2%   auto;
-    max-width: 15%;
-    border: 3px solid #778877;
-    background-color: #155a60;
-    padding-left: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
-.login input{
-    margin-top: 10px;
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
