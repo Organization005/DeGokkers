@@ -1,7 +1,7 @@
 body{
     font-family: "Arial Nova Light";
 }
-.login{
+.register{
     margin: 0 auto;
     max-width: 15%;
     border: 3px solid #778877;
@@ -10,7 +10,7 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.login input{
+.register input{
     margin-top: 10px;
 }
 .submit{
@@ -26,4 +26,16 @@ h1{
 }
 .alert-error{
 
+}
+.login{
+    margin: 2%   auto;
+    max-width: 15%;
+    border: 3px solid #778877;
+    background-color: #155a60;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.login input{
+    margin-top: 10px;
 }
