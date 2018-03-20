@@ -64,21 +64,21 @@ if ($login == false ){
     $logpassword = $_POST['logpassword'];
     $logincheck = false;
     $loogpassword = ' ';
+
     $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
     $query->bindValue( ":email", $logemail);
     $query->execute();
 
 
     if ($query->rowCount() > 0) {
-        do{
-            $query = $dbh->prepare("SELECT password FROM users ");
-            $hash = $query->execute();
 
+                $query = $dbh->prepare("SELECT password FROM users where email = :email");
+            $query->bindValue( ":email", $logemail);
+            $hash = $query->execute();
 
             if (password_verify($logpassword, $hash)){
                 $logincheck   = true;
             }
-        }while($query->rowCount() < 0);
     }else{
         $logincheck = false;
 
