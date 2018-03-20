@@ -1,6 +1,5 @@
 <?php
 
-if(isset($_POST['register'])) {
 
     $login = $_POST['register'];
     $dsn = 'mysql:dbname=accounts;host=127.0.0.1';
@@ -95,4 +94,4 @@ if(isset($_POST['register'])) {
         }
     }
 
-}
+    
