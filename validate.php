@@ -61,21 +61,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 if ($login == false ){
+    $logemail = ' ';
+    $logpassword = ' ';
+    $logincheck = ' ';
 
     $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
-    $query->bindValue( ":email", $email);
+    $query->bindValue( ":email", $logemail);
     $query->execute();
+
+    if ($query->rowCount() > 0) {
+
+    }else{
+        
+    }
 
     $query = $dbh->prepare("SELECT password FROM users WHERE password = :password");
-    $query->bindValue( ":password", $password);
+    $query->bindValue( ":password", $logpassword);
     $query->execute();
-    
 
-    if ($_POST['logemail'] === $email){
-        if ($_POST['logpassword'] === $password){
-            $_SESSION['logmessage'] = 'your login in';
-        }
-    }
+
+
 }
     }
 
