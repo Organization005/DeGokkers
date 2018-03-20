@@ -29,7 +29,7 @@ require 'validate.php';
         <input type="email" placeholder="Email" name="logemail" required />
         <input type="password" placeholder="Password" name="logpassword" autocomplete="new-password" required />
         <div class="submit">
-            <input type="submit" value="login" name="login" class="btn btn-block btn-primary" />
+            <input type="submit" value="login" name="login"/>
         </div>
     </form>
 </div>
@@ -49,7 +49,7 @@ require 'validate.php';
                     <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
                     <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
                     <div class="submit">
-                        <input type="submit" value="register" name="register" class="btn btn-block btn-primary" />
+                        <input type="submit" value="register" name="register"/>
                     </div>
             </div>
         </div>
