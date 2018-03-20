@@ -21,7 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($_POST['password'] === $_POST['confirmpassword']) {
 
             $passwordlenght = strlen($_POST['password']);
-            // change the 1 back to 7 when done testing
             if ($passwordlenght > 7) {
 
                 $email = $_POST['email'];
@@ -69,13 +68,14 @@ if ($login == false ){
     $query->bindValue( ":email", $logemail);
     $query->execute();
 
+
     if ($query->rowCount() > 0) {
         do{
             $query = $dbh->prepare("SELECT password FROM users ");
+            $hash = $query->execute();
 
 
-
-            if (password_verify($logpassword, $query->execute())){
+            if (password_verify($logpassword, $hash)){
                 $logincheck   = true;
             }
         }while($query->rowCount() < 0);
