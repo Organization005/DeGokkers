@@ -1,5 +1,16 @@
 <?php
+
     $login = $_POST['register'];
+$dsn = 'mysql:dbname=accounts;host=127.0.0.1';
+$user = 'root';
+$password = '';
+
+try {
+    $dbh = new PDO($dsn, $user, $password);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo 'Connection failed:' . $e->getMessage();
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($login){
@@ -16,18 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $email = $_POST['email'];
 
                 $hashed_password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-                $dsn = 'mysql:dbname=accounts;host=127.0.0.1';
-                $user = 'root';
-                $password = '';
-
-                    try {
-                    $dbh = new PDO($dsn, $user, $password);
-                    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            } catch (PDOException $e) {
-                echo 'Connection failed:' . $e->getMessage();
-            }
-
-
 
                 $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
                 $query->bindValue( ":email", $email);
@@ -62,11 +61,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 if ($login == false ){
-    try {
-        $dbh = new PDO($dsn, $user, $password);
-        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    } catch (PDOException $e) {
-        echo 'Connection failed:' . $e->getMessage();
+
+    $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
+    $query->bindValue( ":email", $email);
+    $query->execute();
+
+    $query = $dbh->prepare("SELECT password FROM users WHERE password = :password");
+    $query->bindValue( ":password", $email);
+    $query->execute();
+
+    if ($_POST['logemail'] === $email){
+        if ($_POST['logpassword']){
+            $_SESSION['logmessage'] = 'your login in';
+        }
     }
 }
     }
