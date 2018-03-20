@@ -67,11 +67,12 @@ if ($login == false ){
     $query->execute();
 
     $query = $dbh->prepare("SELECT password FROM users WHERE password = :password");
-    $query->bindValue( ":password", $email);
+    $query->bindValue( ":password", $password);
     $query->execute();
+    
 
     if ($_POST['logemail'] === $email){
-        if ($_POST['logpassword']){
+        if ($_POST['logpassword'] === $password){
             $_SESSION['logmessage'] = 'your login in';
         }
     }
