@@ -20,7 +20,7 @@ require 'validate.php';
 <body>
 
 <header>
-
+<h1>De Gokkers</h1>
 
 <div class="login">
 
@@ -87,7 +87,7 @@ require 'validate.php';
 </script>
 </header>
 <div class="banner">
-    <video autoplay>
+    <video autoplay loop>
         <source src="img/trailer.mp4" type="video/mp4">
         <source src="img/trailer.ogg" type="video/ogg">
         Your browser does not support the video tag.
