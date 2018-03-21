@@ -86,7 +86,7 @@
 
                     $query = $dbh->prepare("SELECT password FROM users WHERE email = :email");
                     $query->bindValue(":email", $logemail);
-                    $hash = $query->execute();
+                    $hash = $query->fetch();
 
                     if (password_verify($logpassword, $hash)) {
                         $logincheck = true;
