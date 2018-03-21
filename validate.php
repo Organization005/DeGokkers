@@ -69,7 +69,6 @@
                 $loogpassword = ' ';
 
                 $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
-                $query->bindValue(":email", $logemail);
                 $query->execute();
 
 
