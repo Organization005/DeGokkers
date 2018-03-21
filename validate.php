@@ -1,14 +1,12 @@
 <?php
 
 
-    if(isset($_POST['register'])) {
 
 
-        $login = $_POST['register'];
         $dsn = 'mysql:dbname=accounts;host=127.0.0.1';
         $user = 'root';
         $password = '';
-
+        error_reporting(~E_NOTICE);
         try {
             $dbh = new PDO($dsn, $user, $password);
             $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -17,7 +15,7 @@
         }
 
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            if ($login) {
+
 
                 if ($_POST['password'] !== ' ') {
                     if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
@@ -66,34 +64,35 @@
                         } else {
                             $_SESSION['message'] = 'Two passwords do not match!';
                         }
-                    }
+
 
                 } else {
                     $_SESSION['message'] = 'fill in a password';
                 }
             }
-            if ($login == false) {
+
                 $logemail = $_POST['logemail'];
                 $logpassword = $_POST['logpassword'];
                 $logincheck = false;
                 $loogpassword = ' ';
 
                 $query = $dbh->prepare("SELECT email FROM users WHERE email = :email");
+                $query->bindValue(":email", $logemail);
                 $query->execute();
-
-
                 if ($query->rowCount() > 0) {
 
-                    $query = $dbh->prepare("SELECT password FROM users WHERE email = :email");
-                    $query->bindValue(":email", $logemail);
-                    $hash = $query->fetch();
+                    $query2 = $dbh->prepare("SELECT password FROM users WHERE email = :email");
+                    $query2->bindValue(":email", $logemail);
+                    $query2->execute();
+                    $hash = $query2->fetch();
 
-                    if (password_verify($logpassword, $hash)) {
+                    if (password_verify($logpassword, $hash['password'])) {
                         $logincheck = true;
+
                     }
                 } else {
                     $logincheck = false;
-
+                    
                 }
 
                 if ($logincheck === false) {
@@ -104,6 +103,6 @@
                     $_SESSION['logmessage'] = "you are login now";
                 }
             }
-        }
-    }
+
+
 

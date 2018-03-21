@@ -1,8 +1,8 @@
 <?php
 /* form.php */
 session_start();
-$_SESSION['message'] = '';
-$_SESSION['logmessage'] = '';
+$_SESSION['message'] = ' ';
+$_SESSION['logmessage'] = ' ';
 
 require 'validate.php';
 
