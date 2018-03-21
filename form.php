@@ -29,10 +29,11 @@ require 'validate.php';
         <input type="email" placeholder="Email" name="logemail" required />
         <input type="password" placeholder="Password" name="logpassword" autocomplete="new-password" required />
         <div class="submit">
+            <div class="loginbtn">
             <input type="submit" value="login" name="login"/>
+            </div>
         </div>
     </form>
-</div>
     <button class="button" id="myBtn">Register</button>
 
     <!-- The Modal -->
@@ -55,7 +56,9 @@ require 'validate.php';
         </div>
         </form>
     </div>
-<script>
+</div>
+
+    <script>
     // Get the modal
     var modal = document.getElementById('myModal');
 
@@ -91,6 +94,8 @@ require 'validate.php';
 
     </video>
 </div>
+<div class="image">
+<div class="game">
 <div class="main-content">
     <h2>Information about this game.</h2>
 
@@ -104,6 +109,13 @@ require 'validate.php';
         <p>To get the game you first have to download it, after that you can run the .exe file and play the game.
         Then you can bet on an elephant you think is going to win and then choose how much you want to bet.
         And finally hit start and see what kind of fortune you earn. </p>
+    </div>
+</div>
+</div>
+</div>
+<div class="download">
+    <div class="back">
+    <p>Click <a href="">here</a> to download while logged in.</p>
     </div>
 </div>
 </body>
