@@ -2,6 +2,7 @@
     font-family: "Arial Nova Light";
     margin-left: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 body{
     width: 100%;
@@ -62,7 +63,7 @@ header{
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
 }
 /* The Close Button */
 .close {
@@ -86,7 +87,7 @@ header{
 .banner {
     display: flex;
     justify-content: center;
-    background: url("img/desert2.jpeg") no-repeat center center fixed;
+    background: url("img/desert1.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,7 +131,7 @@ header{
     display: flex;
     justify-content: center;
     padding: 50px;
-    background: url("img/desert2.jpeg") no-repeat center center fixed;
+    background: url("img/desert1.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,7 +144,7 @@ header{
     border-radius: 15px;
 }
 .image{
-    background: url("img/desert2.jpeg") no-repeat center center fixed;
+    background: url("img/desert1.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
