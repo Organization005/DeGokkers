@@ -57,7 +57,7 @@
                                     $_SESSION['message'] = "your password is invalid (needs at least 1 figure)";
                                 }
                             } else {
-                                $_SESSION['message'] = "you password needs to be longer than 7 characters";
+                                $_SESSION['message'] = "your password needs to be longer than 7 characters";
                             }
 
 
