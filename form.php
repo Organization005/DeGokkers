@@ -45,7 +45,7 @@ require 'validate.php';
             <span class="close">&times; </span>
             <div class="register">
 
-                <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                <form class="form2" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
                     <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
                     <div class="password">
                     <input type="email" placeholder="Email" name="email" required />
@@ -56,8 +56,8 @@ require 'validate.php';
                     <div class="password">
                     <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
                     </div>
-                    <div class="submit">
-                        <input type="submit" value="register" name="register"/>
+                    <div class="submit2">
+                        <input type="submit" value="register" name="register" id="submit"/>
                     </div>
             </div>
         </div>

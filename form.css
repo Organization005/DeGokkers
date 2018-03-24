@@ -12,23 +12,22 @@ header{
     justify-content: space-around;
     background: linear-gradient(to right, rgba(246,205,175,0.7),rgba(255,239,226,0.5));
     padding-top: 5px;
-
 }
 .register{
     margin: 0 auto;
     max-width: 10%;
-
+    padding-right: 80px;
 }
 .register input{
     margin-top: 10px;
-    
 }
 .submit{
     max-width: 10%;
     padding-right: 40px;
 }
-.submit input{
-
+#submit{
+    padding-right: 89px;
+    text-align: center;
 }
 .login{
     display: flex;
@@ -38,6 +37,10 @@ header{
 .form{
     display: flex;
     justify-content: space-around;
+}
+.form2{
+    display: block;
+    width: 250px;
 }
 .loginbtn input{
     height: 23px;
@@ -72,7 +75,7 @@ header{
 .close {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: bold;
 }
 
@@ -83,7 +86,7 @@ header{
     cursor: pointer;
 }
 .button{
-    height: 22.5px;
+    height: 23px;
     width: 80px;
     margin-left: 5px;
 }
@@ -108,11 +111,14 @@ header{
 .main-content{
     text-align: center;
     background-color: #f6cdaf;
+    padding: 5px 15px;
 }
 .main-content h2{
     margin-top: 0px;
 }
-
+.main-content h3{
+    padding-top: 10px;
+}
 .game{
     text-align: center;
     max-width: 25%;
@@ -127,7 +133,7 @@ header{
 }
 .download p{
     color: #fefefe;
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 0px;
 }
 .download{
@@ -153,19 +159,4 @@ header{
     -o-background-size: cover;
     background-size: cover;
 }
-.left, .right {
-    float: left;
-    width: 20%; /* The width is 20%, by default */
-}
 
-.main {
-    float: left;
-    width: 60%; /* The width is 60%, by default */
-}
-
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-    .left, .main, .right {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-}
