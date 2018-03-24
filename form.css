@@ -21,6 +21,7 @@ header{
 }
 .register input{
     margin-top: 10px;
+    
 }
 .submit{
     max-width: 10%;
@@ -63,7 +64,9 @@ header{
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%;
+    width: 30%;
+
+
 }
 /* The Close Button */
 .close {
@@ -75,7 +78,7 @@ header{
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -149,4 +152,20 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }

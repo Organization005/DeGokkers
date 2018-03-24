@@ -16,6 +16,7 @@ require 'validate.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Degokkers</title>
     <link rel="stylesheet" href="form.css" type="text/css">
+
 </head>
 <body>
 
@@ -46,9 +47,15 @@ require 'validate.php';
 
                 <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
                     <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
+                    <div class="password">
                     <input type="email" placeholder="Email" name="email" required />
+                    </div>
+                    <div class="password">
                     <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
+                    </div>
+                    <div class="password">
                     <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
+                    </div>
                     <div class="submit">
                         <input type="submit" value="register" name="register"/>
                     </div>
