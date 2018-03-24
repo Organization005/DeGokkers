@@ -146,6 +146,10 @@ header{
     -o-background-size: cover;
     background-size: cover;
 }
+.download button{
+    margin-bottom: 4px;
+    font-size: 1em;
+}
 .back{
     background-color: #888888;
     padding: 10px 15px;

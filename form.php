@@ -34,7 +34,6 @@ require 'validate.php';
             <input type="submit" value="login" name="login"/>
             </div>
         </div>
-        <input type="hidden" name="page_form" value="1">
     </form>
     <button class="button" id="myBtn">Register</button>
 
@@ -66,7 +65,6 @@ require 'validate.php';
                     <div class="terms">
                         <input type="checkbox" required name="terms"> I accept the <a href="terms.php">Terms and Conditions</a></p>
                     </div>
-                    <input type="hidden" name="page_form" value="2"
             </div>
         </div>
         </form>
@@ -128,9 +126,11 @@ require 'validate.php';
 </div>
 </div>
 </div>
+
 <div class="download">
     <div class="back">
-    <p>Click <a href="">here</a> to download while logged in.</p>
+        <p> Click <input type="button" value="here" <?php $logincheck ? 'true' : 'false'; if ($logincheck !== true) { ?> disabled
+            <?php } ?> onclick="program/The_Gambalers.exe" > to download while logged in </p>
     </div>
 </div>
 </body>

@@ -2,7 +2,6 @@
 
 
 
-
         $dsn = 'mysql:dbname=accounts;host=127.0.0.1';
         $user = 'root';
         $password = '';
@@ -101,11 +100,12 @@
             if ($logincheck === false) {
                 $_SESSION['logmessage'] = "Your password or email is not correct";
 
-
             } else {
                 $_SESSION['logmessage'] = "You are logged in now";
+
             }
         }
+
 
 
 
