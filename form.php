@@ -56,8 +56,14 @@ require 'validate.php';
                     <div class="password">
                     <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
                     </div>
+                    <div class="requirements">
+                    <p>Password must contain a Capital letter, a number and needs to be at least 7 characters long.</p>
+                    </div>
                     <div class="submit2">
                         <input type="submit" value="register" name="register" id="submit"/>
+                    </div>
+                    <div class="terms">
+                        <input type="checkbox" required name="terms"> I accept the <a href="terms.php">Terms and Conditions</a></p>
                     </div>
             </div>
         </div>
