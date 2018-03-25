@@ -31,7 +31,7 @@ require 'validate.php';
         <input type="password" placeholder="Password" name="logpassword" autocomplete="new-password" required />
         <div class="submit">
             <div class="loginbtn">
-            <input type="submit" value="login" name="login"/>
+            <input  class="button" type="submit" value="login" name="login"/>
             </div>
         </div>
     </form>
