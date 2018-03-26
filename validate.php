@@ -98,10 +98,10 @@ if (!empty($_POST['login'])) {
             }
 
             if ($logincheck === false) {
-                $_SESSION['logmessage'] = "Your password or email is not correct";
+                $_SESSION['message'] = "Your password or email is not correct";
 
             } else {
-                $_SESSION['logmessage'] = "You are logged in now";
+                $_SESSION['message'] = "You are logged in now";
             }
         }
 
