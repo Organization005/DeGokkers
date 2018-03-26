@@ -48,10 +48,10 @@ require 'validate.php';
                 <form class="form2" action="index.php" method="post" enctype="multipart/form-data" autocomplete="off">
                     <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
                     <div class="password">
-                    <input type="email" placeholder="Email" name="email" required />
+                        <input type="email" placeholder="Email" name="email" required />
                     </div>
                     <div class="password">
-                    <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
+                        <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
                     </div>
                     <div class="password">
                     <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
@@ -129,8 +129,15 @@ require 'validate.php';
 
 <div class="download">
     <div class="back">
-        <p> Click <input type="button" value="here" <?php $logincheck ? 'true' : 'false'; if ($logincheck !== true) { ?> disabled
-            <?php } ?> onclick="program/The_Gambalers.exe" > to download while logged in </p>
+            <?php
+            $logincheck ? 'true' : 'false';
+            if ($logincheck == true) {
+                ?><p>Click <a href="program/The_Gambalers.exe">here</a> to download now!!!!!</p>
+            <?php
+                }else{
+                ?><p>To download you need to login!</p> <?php
+            }
+            ?>
     </div>
 </div>
 </body>

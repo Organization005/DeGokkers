@@ -2,9 +2,9 @@
 
 
 
-        $dsn = 'mysql:dbname=accounts;host=localhost';
-        $user = 'root';
-        $password = '^8n/3rXY~aPj9UDm';
+        $dsn = 'mysql:dbname=d252023_accounts;host=localhost';
+        $user = 'd252023_floris';
+        $password = 'OgdLbd9cA';
         error_reporting(~E_NOTICE);
         try {
             $dbh = new PDO($dsn, $user, $password);
@@ -69,7 +69,8 @@
                 }
             }
         }
-        if (!empty($_POST['login'])) {
+
+if (!empty($_POST['login'])) {
 
 
 
@@ -82,7 +83,6 @@
             $query->bindValue(":email", $logemail);
             $query->execute();
             if ($query->rowCount() > 0) {
-
                 $query2 = $dbh->prepare("SELECT password FROM users WHERE email = :email");
                 $query2->bindValue(":email", $logemail);
                 $query2->execute();
@@ -102,7 +102,6 @@
 
             } else {
                 $_SESSION['logmessage'] = "You are logged in now";
-
             }
         }
 
