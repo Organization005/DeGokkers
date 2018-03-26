@@ -2,9 +2,9 @@
 
 
 
-        $dsn = 'mysql:dbname=d252023_accounts;host=localhost';
-        $user = 'd252023_floris';
         $password = 'OgdLbd9cA';
+        $user = 'd252023_floris';
+        $dsn = 'mysql:dbname=d252023_accounts;host=localhost';
         error_reporting(~E_NOTICE);
         try {
             $dbh = new PDO($dsn, $user, $password);
