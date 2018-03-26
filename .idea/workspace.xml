@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="-1088">
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -44,14 +44,24 @@
       <file leaf-file-name="validate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
-                <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-                <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-                <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-                <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+                <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+                <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+                <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+                <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://D:/php/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,11 +87,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="F:/index.php" />
-        <option value="$PROJECT_DIR$/validate.php" />
         <option value="$PROJECT_DIR$/form.php" />
         <option value="$PROJECT_DIR$/form.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/terms.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/validate.php" />
       </list>
     </option>
   </component>
@@ -191,11 +201,12 @@
       <workItem from="1521885312550" duration="17468000" />
       <workItem from="1521978189003" duration="2498000" />
       <workItem from="1522048498266" duration="119000" />
+      <workItem from="1522048834854" duration="1149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62518000" />
+    <option name="totallyTimeSpent" value="63667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -253,417 +264,200 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="75" lean-forward="false" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="77" lean-forward="true" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="40" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="40" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="40" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php" />
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
           <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/validate.php" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/validate.php" />
+    <entry file="file://F:/index.php" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/form.php" />
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validate.php" />
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validate.php" />
-    <entry file="file://F:/index.php" />
-    <entry file="file://$PROJECT_DIR$/form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="225" column="16" lean-forward="false" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -676,31 +470,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validate.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <marker date="1521921863873" expanded="true" signature="1244:1288" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="1675:1753" ph="INSERT INTO users... " />
-            <marker date="1521921863873" expanded="true" signature="3206:3250" ph="SELECT email... users" />
-            <marker date="1521921863873" expanded="true" signature="3421:3468" ph="SELECT passw... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1088">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1522049424289" expanded="true" signature="1260:1304" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="1691:1769" ph="INSERT INTO users... " />
+            <marker date="1522049424289" expanded="true" signature="3222:3266" ph="SELECT email... users" />
+            <marker date="1522049424289" expanded="true" signature="3437:3484" ph="SELECT passw... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/php/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
